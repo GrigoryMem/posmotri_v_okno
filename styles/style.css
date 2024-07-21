@@ -89,6 +89,8 @@ ol {
 .content__accent {
 }
 .content__list {
+  block-size: 534px;
+  overflow-y: auto;
 }
 .preloader-template {
 }
