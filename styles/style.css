@@ -16,6 +16,9 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h1,
@@ -45,9 +48,9 @@ ol {
   margin:0 auto;
   inline-size: 1140px;
   block-size: 534px;
-
   display: flex;
   justify-content: center;
+
   gap:30px;
   align-items: end;
 
@@ -115,6 +118,7 @@ ol {
 .content__accent {
 }
 .content__list {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap:30px;
@@ -148,6 +152,7 @@ ol {
 .content__video-card-description {
 }
 .content__video-card-thumbnail {
+
   inline-size: 194px;
   block-size:103px;
   object-fit: cover;
