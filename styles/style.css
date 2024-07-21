@@ -54,13 +54,22 @@ ol {
 
 }
 .result__video-container {
+  position: relative;
   inline-size: 711px;
   block-size: 456px;
-  padding-block-end: 133px;
+  padding-block-end: 56.2%;
+}
+
+.result__video-container:not(:last-child) {
+  margin-block-end: 16px;
 }
 .result__video {
-
+  position: absolute;
+  inset:0;
+  inline-size: 100%;
+  block-size: 100%;
 }
+
 .search-form {
   display: flex;
   justify-content: space-between;
