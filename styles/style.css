@@ -44,6 +44,9 @@ ol {
 .content {
   margin:0 auto;
   inline-size: 1140px;
+  display: grid;
+  grid-template-columns: 711px 1fr;
+  align-items: end;
 }
 .result {
 }
