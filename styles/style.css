@@ -40,6 +40,15 @@ ol {
   list-style: none;
 }
 
+.button {
+  border:0;
+  padding:0;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  color:inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 .visually-hidden {
   position: absolute;
   inline-size: 1px;
@@ -110,6 +119,7 @@ ol {
  
 }
 .search-form__label-text {
+  font-weight: 400;
 }
 
 .search-form__textfield {
@@ -132,9 +142,13 @@ ol {
   vertical-align: middle;
   
 }
-.button {
-}
+
 .search-form__submit-button {
+  font-size:18px;
+  font-weight: 700;
+  padding:6px 74px;
+  border:1px solid #fff;
+  align-self: end;
 }
 
 
@@ -218,6 +232,13 @@ ol {
 .more-button-template {
 }
 .more-button {
+  inline-size: 100%;
+  font-size:18px;
+  font-weight: 700;
+  padding:6px 74px;
+  border:1px solid #fff;
+  align-self: end
+
 }
 .error-template {
 }
