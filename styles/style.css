@@ -48,12 +48,18 @@ ol {
   justify-content: center;
   gap:30px;
   align-items: end;
+
 }
 .result {
+
 }
 .result__video-container {
+  inline-size: 711px;
+  block-size: 456px;
+  padding-block-end: 133px;
 }
 .result__video {
+
 }
 .search-form {
   display: flex;
