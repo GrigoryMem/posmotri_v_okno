@@ -44,6 +44,8 @@ ol {
 .content {
   margin:0 auto;
   inline-size: 1140px;
+  block-size: 534px;
+
   display: flex;
   justify-content: center;
   gap:30px;
@@ -139,12 +141,17 @@ ol {
   align-items: start;
 }
 .content__video-card-description-container {
+  inline-size: 100%;
 }
 .content__video-card-title {
 }
 .content__video-card-description {
 }
 .content__video-card-thumbnail {
+  inline-size: 194px;
+  block-size:103px;
+  object-fit: cover;
+
 }
 .more-button-template {
 }
