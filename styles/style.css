@@ -83,6 +83,10 @@ ol {
 .search-form__fieldset {
 }
 .search-form__fieldset-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+
 }
 .search-form__label {
 }
