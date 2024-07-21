@@ -134,6 +134,9 @@ ol {
 .content__card-link {
 }
 .content__video-card {
+  display:flex;
+  justify-content: space-between;
+  align-items: start;
 }
 .content__video-card-description-container {
 }
