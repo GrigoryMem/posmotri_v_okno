@@ -113,6 +113,9 @@ ol {
 .content__accent {
 }
 .content__list {
+  display: flex;
+  flex-direction: column;
+  gap:30px;
   block-size: 534px;
   overflow-y: auto;
 }
