@@ -44,8 +44,9 @@ ol {
 .content {
   margin:0 auto;
   inline-size: 1140px;
-  display: grid;
-  grid-template-columns: 711px 1fr;
+  display: flex;
+  justify-content: center;
+  gap:30px;
   align-items: end;
 }
 .result {
@@ -55,6 +56,9 @@ ol {
 .result__video {
 }
 .search-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
 }
 .search-form__fieldset {
 }
