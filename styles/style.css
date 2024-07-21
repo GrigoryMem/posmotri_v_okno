@@ -106,7 +106,17 @@ ol {
   /* inline-size: 100%; */
   block-size: 534px;
   overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap:30px;
   /* overflow-x: hidden; */
+}
+
+.content__video-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  block-size: 107px;
 }
 
 .content__video-card-thumbnail {
