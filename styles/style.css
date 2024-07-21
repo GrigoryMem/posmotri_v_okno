@@ -130,6 +130,9 @@ ol {
   transition-duration: .4s;
 }
 
+.search-form__textfield:active {
+  border:1px solid #fff;
+}
 .search-form__textfield::placeholder {
   /* padding:0 0px 0 16px; */
   font-weight: 400;
@@ -143,10 +146,9 @@ ol {
 }
 
 .search-form__textfield:focus-visible {
-  outline: none;
-  border:1px solid #fff;
+  outline: 1px solid #fff;
   
-}
+ }
 .search-form__checkbox-list {
   display: flex;
   gap:15px;
