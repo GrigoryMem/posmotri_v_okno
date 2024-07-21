@@ -108,9 +108,9 @@ ol {
 }
 .search-form__label-text {
 }
-.visually-hidden {
-}
+
 .search-form__textfield {
+  appearance: none;
 }
 .search-form__checkbox-list {
   display: flex;
