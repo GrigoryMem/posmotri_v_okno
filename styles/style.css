@@ -58,6 +58,7 @@ ol {
 
 .button:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .button:active:hover {
@@ -68,6 +69,11 @@ ol {
 .button:focus-visible {
     outline: 1px solid #fff;
     outline-offset: -3px;
+}
+
+input[type="checkbox"],
+input[type="checkbox"]~span {
+  cursor: pointer;
 }
 
 
@@ -264,23 +270,43 @@ ol {
   block-size: 534px;
   overflow-y: auto;
 }
-.preloader-template {
-}
-.preloader {
-}
-.preloader-chasing-squares {
-}
-.square {
-}
+
+
 .cards-list-item-template {
 }
 .content__list-item {
 }
 .content__card-link {
+  display: block;
   text-decoration: none;
   color:#FFFFFF;
-
+  padding:2px;
 }
+.content__card-link:hover {
+  cursor: pointer;
+}
+.content__card-link:hover .content__video-card-title,
+.content__card-link:hover .content__video-card-description {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+
+.content__card-link_current,
+.content__card-link:active {
+  background-color:#545050;
+  transition-duration: .3s;
+}
+
+.content__card-link:focus {
+  outline: none;
+}
+
+.content__card-link:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: -1px;
+}
+
 .content__video-card {
   display:flex;
   justify-content: space-between;
@@ -304,8 +330,9 @@ ol {
 .content__video-card-description {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
-  line-height: 1.111;
+  line-height: 0.9;
   color:#fff;
+  padding-block-end:2px;
 }
 .content__video-card-thumbnail {
 
