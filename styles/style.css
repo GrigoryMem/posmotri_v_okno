@@ -117,6 +117,11 @@ ol {
   font-weight: 400;
 }
 
+
+.search-form__label:hover .search-form__label-text {
+  text-decoration: underline;
+}
+
 .search-form__textfield {
   appearance: none;
   background-color: transparent;
@@ -159,7 +164,7 @@ ol {
 
 }
 
-.search-form__checkbox:checked + 
+.search-form__checkbox:active + 
 .search-form__pseudo-checkbox {
   border:none;
   background-color: #fff;
