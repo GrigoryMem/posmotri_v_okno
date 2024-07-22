@@ -47,6 +47,17 @@ ol {
   cursor: pointer;
 }
 
+.button:focus {
+  outline: none;
+}
+
+.button:hover,
+.button:active {
+  transition: all .3s ease-in-out;
+}
+
+
+
 .visually-hidden {
   position: absolute;
   inline-size: 1px;
@@ -114,12 +125,7 @@ ol {
   transition-duration: .4s;
 }
 
-.search-form__label:has(:focus-visible)  {
-  border:1px solid #fff;
-  border-radius: 0;
-  padding: 3px 1px;
- 
-}
+
 
 .search-form__label-text {
   font-weight: 400;
@@ -152,6 +158,12 @@ ol {
   opacity: 0.7;
   /* white-space: pre-line; */
  
+}
+
+
+.search-form__label:has(:focus-visible)  {
+  border:1px solid #fff;
+  padding: 3px 1px;
 }
 
 .search-form__textfield:focus {
@@ -203,6 +215,23 @@ ol {
   padding:6px 74px;
   border:1px solid #fff;
   align-self: end;
+ 
+}
+
+
+
+.search-form__submit-button:hover {
+  text-decoration: underline;
+}
+
+.search-form__submit-button:active:hover {
+  background-color: #545050;
+  text-decoration: none;
+}
+
+.search-form__submit-button:focus-visible {
+    outline: 1px solid #fff;
+    outline-offset: -3px;
 }
 
 
