@@ -45,9 +45,9 @@ ol {
   padding:0;
   color:inherit;
   font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 700;
   background-color: transparent;
   cursor: pointer;
-  font-weight: 700;
 }
 
 .button:focus {
@@ -78,8 +78,6 @@ input[type="checkbox"],
 input[type="checkbox"]~span {
   cursor: pointer;
 }
-
-
 
 .visually-hidden {
   position: absolute;
