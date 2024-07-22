@@ -271,9 +271,14 @@ input[type="checkbox"]~span {
 }
 
 .content__card-link_current,
-.content__card-link:active {
+.content__card-link:active{
   background-color:#545050;
   transition-duration: .3s;
+}
+
+.content__card-link:active:hover .content__video-card-title,
+.content__card-link:active:hover .content__video-card-description {
+  text-decoration: none;
 }
 
 .content__card-link:focus {
