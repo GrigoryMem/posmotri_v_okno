@@ -56,6 +56,20 @@ ol {
   transition: all .3s ease-in-out;
 }
 
+.button:hover {
+  text-decoration: underline;
+}
+
+.button:active:hover {
+  background-color: #545050;
+  text-decoration: none;
+}
+
+.button:focus-visible {
+    outline: 1px solid #fff;
+    outline-offset: -3px;
+}
+
 
 
 .visually-hidden {
@@ -220,19 +234,7 @@ ol {
 
 
 
-.search-form__submit-button:hover {
-  text-decoration: underline;
-}
 
-.search-form__submit-button:active:hover {
-  background-color: #545050;
-  text-decoration: none;
-}
-
-.search-form__submit-button:focus-visible {
-    outline: 1px solid #fff;
-    outline-offset: -3px;
-}
 
 
 /* content__details */
