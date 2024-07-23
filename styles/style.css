@@ -69,11 +69,6 @@ ol {
   outline-offset: -3px;
 }
 
-input[type="checkbox"],
-input[type="checkbox"] ~ span {
-  cursor: pointer;
-}
-
 .visually-hidden {
   position: absolute;
   overflow: hidden;
