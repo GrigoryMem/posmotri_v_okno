@@ -41,7 +41,7 @@ ol {
 }
 
 .button {
-  border:0;
+  border:1px solid #fff;
   padding:0;
   color:inherit;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -216,9 +216,8 @@ input[type="checkbox"]~span {
 
 .search-form__submit-button {
   align-self: end;
-  border:1px solid #fff;
-  padding:6px 74px;
-  font-size:18px;
+  padding: 6px 74px;
+  font-size: 18px;
 }
 
 /* content__details */
@@ -325,7 +324,6 @@ input[type="checkbox"]~span {
 
 .more-button {
   align-self: end;
-  border:1px solid #fff;
   padding:6px 74px;
   font-weight: 700;
   font-size:18px;
