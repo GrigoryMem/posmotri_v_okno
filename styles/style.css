@@ -129,6 +129,7 @@ input[type="checkbox"] ~ span {
   width: fit-content;
   font-family: "Fira Sans Condensed", sans-serif;
   transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .search-form__label-text {
