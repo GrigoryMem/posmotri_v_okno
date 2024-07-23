@@ -122,9 +122,6 @@ input[type="checkbox"] ~ span {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.2;
-}
-
-.search-form__fieldset-title:not(:last-child) {
   margin-block-end: 5px;
 }
 
