@@ -48,15 +48,11 @@ ol {
   font-weight: 700;
   background-color: transparent;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 .button:focus {
   outline: none;
-}
-
-.button:hover,
-.button:active {
-  transition: all 0.3s ease-in-out;
 }
 
 .button:hover {
