@@ -41,6 +41,7 @@ ol {
 }
 
 .button {
+  align-self: end;
   border: 1px solid #fff;
   padding: 0;
   color: inherit;
@@ -48,9 +49,8 @@ ol {
   font-weight: 700;
   font-size: 18px;
   background-color: transparent;
-  cursor: pointer;
   transition: all 0.3s ease-in-out;
-  align-self: end;
+  cursor: pointer;
 }
 
 .button:focus {
@@ -94,9 +94,9 @@ ol {
 
 .result__video-container {
   position: relative;
+  margin-block-end: 16px;
   inline-size: 711px;
   block-size: 386px;
-  margin-block-end: 16px;
 }
 
 .result__video {
@@ -116,10 +116,10 @@ ol {
 }
 
 .search-form__fieldset-title {
+  margin-block-end: 5px;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.2;
-  margin-block-end: 5px;
 }
 
 .search-form__label {
@@ -136,11 +136,11 @@ ol {
 }
 
 .search-form__label:has(.search-form__pseudo-checkbox) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap:5px; 
-    line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px; 
+  line-height: 1;
 }
 
 .search-form__label-text {
@@ -187,20 +187,20 @@ ol {
 
 .search-form__pseudo-checkbox {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 19px;
   height: 19px;
+  border:1px solid #fff;
   transition-duration: 0.3s;
   cursor: pointer;
-  border:1px solid #fff;
 }
 
 .search-form__pseudo-checkbox::before {
   content: "";
-  opacity: 0;
   width: 15px;
   height: 15px;
+  opacity: 0;
   background-color: #fff;
   transition: all .3s ease-in-out;
 }
@@ -249,16 +249,16 @@ ol {
 }
 
 .content__card-link:hover {
-  cursor: pointer;
   text-decoration: underline;
   text-decoration-thickness: 1px;
+  cursor: pointer;
 }
 
 .content__card-link_current,
 .content__card-link:active {
+  text-decoration: none;
   background-color: #545050;
   transition-duration: 0.3s;
-  text-decoration: none;
 }
 
 .content__card-link:focus {
@@ -281,16 +281,16 @@ ol {
 }
 
 .content__video-card-title {
+  width: 150px;
+  margin-bottom: 6px;
+  overflow: hidden;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 1;
   text-transform: uppercase;
-  margin-bottom: 6px;
   text-overflow: ellipsis;
   white-space: no-wrap;
-  overflow: hidden;
-  width: 150px;
 }
 
 .content__video-card-description {
