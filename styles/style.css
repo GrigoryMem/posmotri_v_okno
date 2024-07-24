@@ -179,7 +179,7 @@ ol {
   gap: 15px;
 }
 
-.search-form__checkbox:active + .search-form__pseudo-checkbox,
+
 .search-form__checkbox:checked + .search-form__pseudo-checkbox {
   border: none;
   outline: 1px solid #1b1919;
