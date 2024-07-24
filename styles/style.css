@@ -234,7 +234,7 @@ ol {
 .content__list {
   position: relative;
   overflow-y: auto;
-  block-size: 534px;
+  block-size: 298px;
 }
 
 .content__list-item:not(:last-child) {
