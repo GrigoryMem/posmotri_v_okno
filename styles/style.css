@@ -286,10 +286,11 @@ ol {
   font-size: 30px;
   line-height: 1;
   text-transform: uppercase;
-}
-
-.content__video-card-title:not(:last-child) {
   margin-bottom: 6px;
+  text-overflow: ellipsis;
+  white-space: no-wrap;
+  overflow: hidden;
+  width: 150px;
 }
 
 .content__video-card-description {
