@@ -180,21 +180,28 @@ ol {
 }
 
 
-.search-form__checkbox:checked + .search-form__pseudo-checkbox {
-  border: none;
-  outline: 1px solid #1b1919;
-  outline-offset: -2px;
-  background-color: #fff;
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
+  opacity: 1;
 }
 
 .search-form__pseudo-checkbox {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 19px;
   height: 19px;
-  border: 1px solid #fff;
-  vertical-align: middle;
   transition-duration: 0.3s;
   cursor: pointer;
+  border:1px solid #fff;
+}
+
+.search-form__pseudo-checkbox::before {
+  content: "";
+  opacity: 0;
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  transition: all .3s ease-in-out;
 }
 
 .search-form__submit-button {
