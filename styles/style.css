@@ -50,6 +50,7 @@ ol {
   background-color: transparent;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  align-self: end;
 }
 
 .button:focus {
@@ -205,7 +206,6 @@ ol {
 }
 
 .search-form__submit-button {
-  align-self: end;
   padding: 6px 74px;
 }
 
@@ -309,9 +309,6 @@ ol {
 }
 
 .more-button {
-  align-self: end;
-  padding: 6px 74px;
-  font-weight: 700;
-  font-size: 18px;
+  padding-block:6px;
   inline-size: 100%;
 }
