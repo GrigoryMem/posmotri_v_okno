@@ -250,10 +250,6 @@ ol {
 
 .content__card-link:hover {
   cursor: pointer;
-}
-
-.content__card-link:hover .content__video-card-title,
-.content__card-link:hover .content__video-card-description {
   text-decoration: underline;
   text-decoration-thickness: 1px;
 }
@@ -262,10 +258,6 @@ ol {
 .content__card-link:active {
   background-color: #545050;
   transition-duration: 0.3s;
-}
-
-.content__card-link:active:hover .content__video-card-title,
-.content__card-link:active:hover .content__video-card-description {
   text-decoration: none;
 }
 
