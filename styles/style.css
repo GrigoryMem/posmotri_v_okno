@@ -89,11 +89,10 @@ ol {
   gap: 30px;
   margin: 0 auto;
   inline-size: 1140px;
-  /* block-size: 534px; */
+
 }
 
 .result__video-container {
-  position: relative;
   margin-block-end: 16px;
   inline-size: 711px;
   block-size: 386px;
